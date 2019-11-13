@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crystal Collector</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="p-3 mb-2 bg-warning text-white">
+        <div class="container">
+            <div class="row-2">
+                <div class="col">
+                    <h1>Crystals Collector!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <p class="instructions"><a class="text-info">You will be given a random number at the start of the game. <br> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br> You will win the game by matching your total score to random number, you lose the game if your total score goes above the random number. <br> The value of each crystal is hidden from you until you click on it. <br> Each time when the game starts, the game will change the values of each crystal.</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="random-number">0</h2>  <p class="win-counter">Wins:0</p>
+                <p class="loss-counter">Losses:0</p>
+                
+                </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row-1">
+            <div class="col-2">
+                    <button> <img src="assets/images/crystal-1.png" class="img-fluid" class="crystal-1"> </button>
+                    <button> <img src="assets/images/crystal-2.png" class="img-fluid" class="crystal-2"> </button>
+                    <button> <img src="assets/images/crystal-3.png" class="img-fluid" class="crystal-3"> </button>
+                    <button> <img src="assets/images/crystal-4.png" class="img-fluid" class="crystal-4"> </button>
+            </div>
+       </div>         
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <p class="total-score">Your total score is: </p>
+            </div>
+        </div>
+    </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-4">
+              <h3 class="user-score">0</h3>
+          </div>
+      </div>
+  </div>
+          
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>
